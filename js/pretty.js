@@ -1,7 +1,5 @@
 
 
-
-
 //counties is the array of data
 //target is the selection of the g element to place the graph in
 //xscale,yscale are the x and y scales.
@@ -85,7 +83,7 @@ var drawAxes = function(graphDim,margins,
         
 }
 
-
+        //labels
 //graphDim -object that stores dimensions of the graph area
 //margins - objedct that stores the size of the margins
 var drawLabels = function(graphDim,margins)
@@ -118,7 +116,7 @@ var drawLabels = function(graphDim,margins)
       
 }
 
-
+//draw legend
 var drawLegend = function(graphDim,margins)
 {
     var Legend = d3.select("svg")
